@@ -137,8 +137,8 @@ public class Booking {
 		room.checkin();
 	}
 
-
-	public void addServiceCharge(ServiceType serviceType, double cosst) {
+	// Change variable namne from cosst to cost for fix service chagre bug.
+	public void addServiceCharge(ServiceType serviceType, double cost) {
 		charges.add(new ServiceCharge(serviceType, cost));
 	}
 
