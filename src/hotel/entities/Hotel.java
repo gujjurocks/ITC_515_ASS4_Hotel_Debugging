@@ -126,6 +126,8 @@ public class Hotel {
 			throw new RuntimeException(mesg);
 		}
 		booking.checkOut();
+		// removing booking details from active booking list
+		activeBookingsByRoomId.remove(roomId);
 	}
 
 
