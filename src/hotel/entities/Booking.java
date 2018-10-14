@@ -138,7 +138,9 @@ public class Booking {
 	}
 
 
-	public void addServiceCharge(ServiceType serviceType, double cosst) {
+        // change variable name from coast to cost for getting correct value of cost
+
+	public void addServiceCharge(ServiceType serviceType, double cost) {
 		charges.add(new ServiceCharge(serviceType, cost));
 	}
 
