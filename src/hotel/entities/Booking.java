@@ -138,7 +138,8 @@ public class Booking {
 	}
 
 
-	public void addServiceCharge(ServiceType serviceType, double cosst) {
+	public void addServiceCharge(ServiceType serviceType, double cost) {
+		//changed the variable name from cosst to cost i.e first bug
 		charges.add(new ServiceCharge(serviceType, cost));
 	}
 
